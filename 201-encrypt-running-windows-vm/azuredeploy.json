@@ -100,7 +100,7 @@
       }
     },
     {
-      "name": "updatevm",
+      "name": "[concat(parameters('vmName'), '-', variables('extensionName'))]",
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2015-01-01",
       "dependsOn": [
